@@ -6,3 +6,4 @@
 5-print_numbers.c displays 0 to 9
 6-print_numberz.c displays 0 to 9 without char
 7-print_tebahpla.c displays the alphabet in reverse
+8-print_base16.C displays all the numbers of base 16
