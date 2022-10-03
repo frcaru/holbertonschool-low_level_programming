@@ -2,3 +2,4 @@
 1-last_digit.c identify if n is neutral more than 5 or less than 6
 2-print_alphabet.c displays the alphabet
 3-prints_alphabets.c displays the alphabet and the ALPHABET
+4-print_alphabt.c displays the alphabet except 'q' and 'e'
