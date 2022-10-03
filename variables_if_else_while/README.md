@@ -3,3 +3,4 @@
 2-print_alphabet.c displays the alphabet
 3-prints_alphabets.c displays the alphabet and the ALPHABET
 4-print_alphabt.c displays the alphabet except 'q' and 'e'
+5-print_numbers.c displays 0 to 9
