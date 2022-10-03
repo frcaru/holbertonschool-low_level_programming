@@ -5,3 +5,4 @@
 4-print_alphabt.c displays the alphabet except 'q' and 'e'
 5-print_numbers.c displays 0 to 9
 6-print_numberz.c displays 0 to 9 without char
+7-print_tebahpla.c displays the alphabet in reverse
