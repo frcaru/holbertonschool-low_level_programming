@@ -2,7 +2,7 @@
 
 /**
  * print_sign - func to prints the sign of number
- * @c: input
+ * @n: input
  *
  * Return: 1, 0 or -1
  */
