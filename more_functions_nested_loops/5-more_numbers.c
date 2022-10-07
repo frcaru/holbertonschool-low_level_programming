@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_numbers - func to print numbers
+ *more_numbers - func to print numbers
  *
  * Return: 0
  */
