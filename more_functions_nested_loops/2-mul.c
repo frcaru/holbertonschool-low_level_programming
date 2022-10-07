@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _isdigit - func to return if digit or not
+ * mul - func to return the mul a and b
+ * 
  *@a : input
  *@a : input
  *
