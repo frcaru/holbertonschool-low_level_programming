@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - func to prints the last digit
+ * _isupper - func to return if upper char or no
  *@c : input
  *
  * Return: 0
