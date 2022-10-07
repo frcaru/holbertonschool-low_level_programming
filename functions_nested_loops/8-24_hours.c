@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit - func to prints the last digit
- * @n: input
+ * jack_bauer - func to prints every minutes of a day
+ * @h: input
+ * @m: input
  *
  * Return: 0
  */
