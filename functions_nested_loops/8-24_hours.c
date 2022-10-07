@@ -2,8 +2,6 @@
 
 /**
  * jack_bauer - func to prints every minutes of a day
- * @h: input
- * @m: input
  *
  * Return: 0
  */
