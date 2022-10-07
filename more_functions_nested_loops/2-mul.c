@@ -4,7 +4,7 @@
  *mul - func to return the mul a and b
  *
  *@a : input
- *@a : input
+ *@b : input
  *
  * Return: 0
  */
