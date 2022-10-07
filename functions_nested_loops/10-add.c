@@ -1,8 +1,14 @@
 #include "main.h"
 
 /**
- * jack_bauer - func to prints every minutes of a day
- *
+ * add - func to print result of the sum of two integers
+ *@a: input
+ *@b: input
+
  * Return: 0
  */
 
+int add(int a, int b)
+{
+	return (a + b);
+}
