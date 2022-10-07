@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * mul - func to return the mul a and b
- * 
+ *mul - func to return the mul a and b
+ *
  *@a : input
  *@a : input
  *
