@@ -2,7 +2,7 @@
 
 /**
  *print_line - func to print a straight line
- *
+ *@n:  input
  * Return: 0
  */
 
