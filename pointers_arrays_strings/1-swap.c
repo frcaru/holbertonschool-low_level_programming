@@ -2,6 +2,8 @@
 
 /**
  * swap_int - swap the values of two integers
+ *@a: input
+ *@b: input
  *
  * Return: 0
  */
