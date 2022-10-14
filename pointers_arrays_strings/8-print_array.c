@@ -3,6 +3,8 @@
 
 /**
  * print_array - prints n elements of an array
+ *@a: input
+ *@n: input
  *
  * Return: 0
  */
