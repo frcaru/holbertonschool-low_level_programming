@@ -12,6 +12,9 @@ char *cap_string(char *n)
 	char sep[] = ",.;!?\"(){} \n\t";
 	int i, x;
 
+	if (n[0] >= 'a' && n[0] <= 'z')
+		n[0] -= 32;
+
 	for (i = 0; n[i] != '\0'; i++)
 	{
 		for (x = 0; sep[x] != '\0'; x++)
