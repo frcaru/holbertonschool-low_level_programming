@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes lower in upper char
- *
+ * @n: input
  * Return: 0
  */
 
