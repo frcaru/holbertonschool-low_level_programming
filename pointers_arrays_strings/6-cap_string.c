@@ -19,7 +19,7 @@ char *cap_string(char *n)
 	{
 		for (x = 0; sep[x] != '\0'; x++)
 		{
-			if ( n[i] == sep[x] && n[i + 1] >= 'a' && n[i + 1] <= 'z')
+			if (n[i] == sep[x] && n[i + 1] >= 'a' && n[i + 1] <= 'z')
 				n[i + 1] -= 32;
 		}
 	}
