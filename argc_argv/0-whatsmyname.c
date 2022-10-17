@@ -2,7 +2,8 @@
 
 /**
  * main - prints the current program name
- *
+ * @argc: input
+ * @argv: input
  * Return: 0
  */
 
