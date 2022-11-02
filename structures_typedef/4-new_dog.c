@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * dog_t - creates a new dog
+ * new_dog - creates a new dog
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's owner
@@ -15,7 +15,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *d;
-	
+
 	if (name == NULL || owner == NULL)
 		return (0);
 
@@ -35,7 +35,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		d->name = NULL;
 		d = NULL;
 		return (0);
-	}	
+	}
 	d->owner = malloc(strlen(owner) + 1);
 	if (!d->name || !d->owner)
 	{
@@ -46,7 +46,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		d->owner = NULL;
 		d = NULL;
 		return (0);
-	}	
+	}
 
 	strcpy(d->name, name);
 	strcpy(d->owner, owner);
