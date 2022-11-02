@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- *
  * free_dog - frees variable
  * @d: dog_t variable type
  *
