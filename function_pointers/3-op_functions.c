@@ -2,10 +2,6 @@
 
 /**
  * op_add - adds a and b
- * op_sub - subtracts a and b
- * op_mul - multiplies a and b
- * op_div - divides a and b
- * op_mod - modulo a and b
  * @a: input
  * @b: input
  *
@@ -20,6 +16,14 @@ int op_add(int a, int b)
 	return (sum);
 }
 
+/**
+ * op_sub - subtracts a and b
+ * @a: input
+ * @b: input
+ *
+ * Return: the sum
+ */
+
 int op_sub(int a, int b)
 {
 	int sum;
@@ -28,6 +32,14 @@ int op_sub(int a, int b)
 	return (sum);
 }
 
+/**
+ * op_mul - multiplies a and b
+ * @a: input
+ * @b: input
+ *
+ * Return: the sum
+ */
+
 int op_mul(int a, int b)
 {
 	int sum;
@@ -35,6 +47,14 @@ int op_mul(int a, int b)
 	sum = a * b;
 	return (sum);
 }
+
+/**
+ * op_div - divides a and b
+ * @a: input
+ * @b: input
+ *
+ * Return: the sum
+ */
 
 int op_div(int a, int b)
 {
@@ -49,6 +69,14 @@ int op_div(int a, int b)
 		sum = a / b;
 	return (sum);
 }
+
+/**
+ * op_mod - modulo a and b
+ * @a: input
+ * @b: input
+ *
+ * Return: the sum
+ */
 
 int op_mod(int a, int b)
 {

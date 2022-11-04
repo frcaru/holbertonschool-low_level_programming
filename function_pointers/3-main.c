@@ -5,6 +5,8 @@
 
 /**
  * main - main
+ * @argc: input
+ * @argv: input
  *
  * Return: 0
  */
