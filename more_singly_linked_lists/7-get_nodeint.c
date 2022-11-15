@@ -12,9 +12,14 @@
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
+	listint_t *copy = head;
 	unsigned int i, j;
 
-	j = listint_len(head);
+	while (copy != 0)
+	{
+		copy = copy->next;
+		j++;
+	}
 
 	if (index > j)
 		return (NULL);
