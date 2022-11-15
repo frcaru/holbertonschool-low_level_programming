@@ -18,6 +18,13 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *tmp = *head;
 	unsigned int i = 0, j;
 
+	if (node == 0)
+	{
+		free(node);
+		node = 0;
+		return (0);
+	}
+
 	while (copy != 0)
 	{
 		copy = copy->next;
