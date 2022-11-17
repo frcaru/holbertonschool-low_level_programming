@@ -17,7 +17,10 @@ void print_binary(unsigned long int n)
 		count++;
 	}
 
-	for (; count >= 0; count--)
+	if (n == 0)
+		_putchar('0');
+
+	for (count -= 1; count >= 0; count--)
 	{
 		mask = 1 << count;
 
