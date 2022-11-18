@@ -10,15 +10,8 @@
 
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int cp = *n;
-	unsigned int count = 0;
+	unsigned int count = 32;
 	unsigned long int clearbit = ~(1 << index);
-
-	while (cp)
-	{
-		cp = cp >> 1;
-		count++;
-	}
 
 	if (index > count)
 		return (-1);
