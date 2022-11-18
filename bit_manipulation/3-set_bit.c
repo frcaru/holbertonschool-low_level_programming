@@ -10,16 +10,9 @@
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-/*	unsigned long int cp = *n;*/
 	unsigned int count = 32;
 	unsigned long int clearbit = ~(1 << index);
 	unsigned long int mask = *n & clearbit;
-
-	/*while (cp)
-	{
-		cp = cp >> 1;
-		count++;
-	}*/
 
 	if (n[0] == 0)
 		return (-1);
