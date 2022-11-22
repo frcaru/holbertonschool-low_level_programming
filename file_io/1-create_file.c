@@ -15,14 +15,14 @@ int create_file(const char *filename, char *text_content)
 	if (filename == NULL)
 		return (-1);
 
-	fd = open(filename, O_RDWR | O-CREAT | O_TRUNC, 00600);
+	fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 00600);
 
 	if (fd == -1)
 		return (-1);
 
 	if (text_content != NULL)
 	{
-		for (len = 0; text_content[len] != NULL; len++)
+		for (len = 0; text_content[len] != '\0'; len++)
 			;
 		wd = write(fd, text_content, len);
 		if (wd == -1)
