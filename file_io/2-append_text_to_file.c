@@ -16,7 +16,7 @@ int fd, len, wd;
 	if (filename == NULL)
 		return (-1);
 
-	fd = open(filename, O_RDWR | O_CREAT | O_EXCL | O_APPEND);
+	fd = open(filename, O_RDWR | O_APPEND);
 
 	if (fd == -1)
 		return (-1);
